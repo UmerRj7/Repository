@@ -12,7 +12,7 @@ public AudioSource AttackSound;
 public Animator camera_anim;
 public Event8 obj;
 
-
+// On triggerEnter fn have two conditional loops checking that object name should be EnemyAI nd then setting fn's to false or true
 void OnTriggerEnter (Collider triggerInfo) 
     {
 

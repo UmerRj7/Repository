@@ -24,7 +24,8 @@ public bool trigger= true;
     // {
         
     // }
-
+    
+    // onTriggerEnter is enabling trigger to perform functions on triggering means colliding        
      private void OnTriggerEnter(Collider other) {
 
         // objUpdated.SetText("Objective Updated");

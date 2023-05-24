@@ -76,7 +76,7 @@ public class Event3 : MonoBehaviour
 }
 
 
-
+    //Pause Event Function is performing a event pause in a game for specific amount of time.
     IEnumerator PauseEvent(){
     yield return new WaitForSeconds(10); 
     timer.gameObject.SetActive(true);
